@@ -10,6 +10,8 @@
 
 .swiper-slide img {
     width: 100%;
+    overflow: visible;
+    height: 14.625rem;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -77,4 +79,8 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+.descricao-estrelas {
+    padding-bottom: 0.8em;
 }
