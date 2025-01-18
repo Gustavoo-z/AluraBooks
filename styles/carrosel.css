@@ -10,7 +10,6 @@
 
 .swiper-slide img {
     width: 100%;
-    overflow: visible;
     height: 14.625rem;
 }
 
@@ -101,5 +100,18 @@
     .card {
         width: 70%;
         margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrosel-container {
+        display: block;
+        margin: 0 20vw 3em 20vw;
+    }
+
+    .swiper-slide img {
+        width: auto;
+        height: auto;
+        padding-left: 0.8em;
     }
 }
