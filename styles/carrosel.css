@@ -19,6 +19,7 @@
 
 .swiper-pagination {
     position: initial;
+    z-index: 1;
     margin: 0.5em 0;
 }
 
@@ -100,6 +101,10 @@
     .card {
         width: 70%;
         margin: 2em auto;
+    }
+
+    .botoes-ancora:active {
+        background-color: var(--azul);
     }
 }
 

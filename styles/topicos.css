@@ -52,6 +52,11 @@
     .container-topicos {
         padding: 0;
     }
+
+    .topicos-link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
+    }
 }
 
 @media screen and (min-width: 1728px) {
